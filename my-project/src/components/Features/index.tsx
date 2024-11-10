@@ -38,7 +38,7 @@ const Features: React.FC = () => {
     ];
 
     return (
-        <div className=" bg-gray-200 w-screen h-auto mx-auto p-8" id="features">
+        <div className=" bg-gray-100 w-screen h-auto mx-auto p-8" id="features">
             <div className="w-[80%] m-auto">
                 <h2 className="text-center font-bold mb-10 text-4xl tracking-wide">
                     FEATURES
