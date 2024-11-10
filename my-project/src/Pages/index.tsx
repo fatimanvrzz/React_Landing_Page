@@ -1,4 +1,5 @@
 import backgroundImageUrl from '../assets/intro-bg.jpg';
+import AboutUs from '../components/AboutUs';
 import Features from "../components/Features";
 import Navbar from '../components/Navbar';
 
@@ -36,6 +37,7 @@ const IndexPage: React.FC = () => {
             </div>
 
             <Features />
+            <AboutUs />
         </div>
     );
 
