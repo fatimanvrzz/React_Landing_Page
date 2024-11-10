@@ -1,4 +1,3 @@
-import React, { ReactElement, useState } from "react";
 import backgroundImageUrl from '../assets/intro-bg.jpg';
 import Features from "../components/Features";
 
