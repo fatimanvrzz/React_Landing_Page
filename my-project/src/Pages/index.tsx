@@ -2,6 +2,7 @@ import backgroundImageUrl from '../assets/intro-bg.jpg';
 import AboutUs from '../components/AboutUs';
 import Features from "../components/Features";
 import Navbar from '../components/Navbar';
+import OurService from '../components/OurService';
 
 
 const IndexPage: React.FC = () => {
@@ -13,7 +14,7 @@ const IndexPage: React.FC = () => {
 
             {/* Background Section */}
             <div className="relative bg-cover bg-center h-screen" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
-                <div className="absolute inset-0 bg-black opacity-40"></div>
+                <div className="absolute inset-0 bg-black opacity-20"></div>
 
                 <div className="absolute w-screen h-screen flex flex-col items-center justify-center text-center text-white">
                     <div className="font-serif font-bold text-wrap text-6xl w-[600px]">
@@ -35,9 +36,11 @@ const IndexPage: React.FC = () => {
                     </button>
                 </div>
             </div>
-
+                
             <Features />
             <AboutUs />
+            <OurService />
+            
         </div>
     );
 

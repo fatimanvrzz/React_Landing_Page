@@ -3,7 +3,7 @@ import { MdDone } from "react-icons/md";
 
 const AboutUs = () => {
     return (
-        <div className="flex flex-row p-10 w-screen h-auto gap-24 justify-center items-center">
+        <div className="flex flex-row p-10 w-screen h-auto gap-24 justify-center items-center" id="aboutUs">
             <div className="w-[500px] h-auto">
                 <img src="./src/assets/about.jpg" className="w-screen" />
             </div>
