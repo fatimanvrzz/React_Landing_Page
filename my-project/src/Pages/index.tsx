@@ -1,6 +1,7 @@
 import backgroundImageUrl from '../assets/intro-bg.jpg';
 import AboutUs from '../components/AboutUs';
 import Features from "../components/Features";
+import Gallery from '../components/Gallery';
 import Navbar from '../components/Navbar';
 import OurService from '../components/OurService';
 
@@ -8,7 +9,7 @@ import OurService from '../components/OurService';
 const IndexPage: React.FC = () => {
 
     return (
-        <div className="w-screen overflow-x-hidden">
+        <div className="w-screen">
 
             <Navbar />
 
@@ -40,6 +41,7 @@ const IndexPage: React.FC = () => {
             <Features />
             <AboutUs />
             <OurService />
+            <Gallery/>
             
         </div>
     );

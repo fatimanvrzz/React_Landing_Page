@@ -59,7 +59,7 @@ const OurServiceCard: React.FC = () => {
                 <div key={index} className="flex flex-col mt-4 items-center justify-center text-center" onClick={() => setActiveOurServiceCard(index)}>
 
                     {/* Icon */}
-                    <div className="flex items-center justify-center mb-4 p-4 text-3xl text-white rounded-full bg-gradient-to-br from-blue-500 to-indigo-500" style={{ width: "80px", height: "80px" }}>
+                    <div className="flex items-center justify-center mb-4 p-4 text-3xl text-white rounded-full bg-gradient-to-br from-blue-500 to-indigo-300" style={{ width: "80px", height: "80px" }}>
                         {service.Icon}
                     </div>
                    
