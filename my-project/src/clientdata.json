@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "photopath": "./src/assets/PhotoClients/john.jpg",
+        "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+        "name": "John Doe"
+    },
+    {
+        "id":2,
+        "photopath": "./src/assets/PhotoClients/john2.jpg",
+        "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+        "name": "Jonhattan Doe"
+    },
+    {
+        "id":3,
+        "photopath": "./src/assets/PhotoClients/john3.jpg",
+        "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+        "name": "John Doe"
+    },
+    {
+        "id":4,
+        "photopath": "./src/assets/PhotoClients/john4.jpg",
+        "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+        "name": "Jonhattan Doe"
+    },
+    {
+        "id":5,
+        "photopath": "./src/assets/PhotoClients/john5.jpg",
+        "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+        "name": "John Doe"
+    },
+    {
+        "id":6,
+        "photopath": "./src/assets/PhotoClients/john6.jpg",
+        "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+        "name": "Jonhattan Doe"
+    }
+
+]

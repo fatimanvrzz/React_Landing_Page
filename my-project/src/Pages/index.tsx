@@ -1,5 +1,6 @@
 import backgroundImageUrl from '../assets/intro-bg.jpg';
 import AboutUs from '../components/AboutUs';
+import ClientComment from '../components/ClientComment';
 import Features from "../components/Features";
 import Gallery from '../components/Gallery';
 import Navbar from '../components/Navbar';
@@ -37,12 +38,14 @@ const IndexPage: React.FC = () => {
                     </button>
                 </div>
             </div>
-                
+
             <Features />
             <AboutUs />
             <OurService />
-            <Gallery/>
-            
+            <Gallery />
+            <ClientComment />
+
+
         </div>
     );
 
