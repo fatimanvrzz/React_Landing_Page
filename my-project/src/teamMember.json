@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "photoPath":"./src/assets/TeamMembers/01.jpg",
+        "name": "John Doe",
+        "mission": "Director"
+    },
+    {
+        "id": 2,
+        "photoPath":"./src/assets/TeamMembers/02.jpg",
+        "name": "Mike Doe",
+        "mission": "Senior Designer"
+    },
+    {
+        "id": 3,
+        "photoPath":"../src/assets/TeamMembers/03.jpg",
+        "name": "Jane Doe",
+        "mission": "Senior Designer"
+    },
+    {
+        "id": 4,
+        "photoPath":"../src/assets/TeamMembers/04.jpg",
+        "name": "Karen Doe",
+        "mission": "Project Manager"
+    }
+]

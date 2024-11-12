@@ -8,7 +8,7 @@ const ClientComment: React.FC = () => {
 
 
   return (
-    <div className="flex flex-col items-center bg-gray-100">
+    <div className="flex flex-col items-center bg-gray-100 pb-10">
       <div className="text-4xl font-bold mt-20 uppercase">What Our Clients Say</div>
 
       <div className="grid grid-cols-3 gap-3">

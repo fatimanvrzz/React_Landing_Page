@@ -3,8 +3,10 @@ import AboutUs from '../components/AboutUs';
 import ClientComment from '../components/ClientComment';
 import Features from "../components/Features";
 import Gallery from '../components/Gallery';
+import MeetTheTeam from '../components/MeetTheTeam';
 import Navbar from '../components/Navbar';
 import OurService from '../components/OurService';
+import TeamMember from '../components/TeamMember';
 
 
 const IndexPage: React.FC = () => {
@@ -44,7 +46,7 @@ const IndexPage: React.FC = () => {
             <OurService />
             <Gallery />
             <ClientComment />
-
+            <MeetTheTeam />
 
         </div>
     );
