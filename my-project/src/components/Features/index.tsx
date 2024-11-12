@@ -11,7 +11,6 @@ type FeaturesData = {
 };
 
 const Features: React.FC = () => {
-    const [activeServiceFeatures, setActiveServiceFeatures] = useState(0);
 
     // featuresCard array'sindeki öğeleri tanımlıyoruz
     const featuresCard: FeaturesData[] = [
@@ -47,7 +46,7 @@ const Features: React.FC = () => {
                 <div className="flex gap-6 justify-center">
 
                     {featuresCard.map((feature, index) => (
-                        <div key={index} className="flex flex-col items-center p-6" onClick={() => setActiveServiceFeatures(index)} >
+                        <div key={index} className="flex flex-col items-center p-6" >
                             {/* Icon */}
                             <div className="flex items-center justify-center mb-4 p-4 text-2xl text-white rounded-full bg-gradient-to-br from-blue-500 to-indigo-500" style={{ width: "80px", height: "80px" }} >
                                 {feature.Icon}

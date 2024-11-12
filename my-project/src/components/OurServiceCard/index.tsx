@@ -17,7 +17,6 @@ type OurServiceCardData = {
 
 const OurServiceCard: React.FC = () => {
 
-    const [activeOurServiceCard, setActiveOurServiceCard] = useState(0);
 
 
     const ServiceCard: OurServiceCardData[] = [
@@ -56,15 +55,15 @@ const OurServiceCard: React.FC = () => {
     return (
         <div className="grid grid-cols-3 mx-20 ">
             {ServiceCard.map((service, index) => (
-                <div key={index} className="flex flex-col mt-4 items-center justify-center text-center" onClick={() => setActiveOurServiceCard(index)}>
+                <div key={index} className="flex flex-col mt-4 items-center justify-center text-center" >
 
                     {/* Icon */}
                     <div className="flex items-center justify-center mb-4 p-4 text-3xl text-white rounded-full bg-gradient-to-br from-blue-500 to-indigo-300" style={{ width: "80px", height: "80px" }}>
                         {service.Icon}
                     </div>
-                   
+
                     <div className="">
-                         {/* Title */}
+                        {/* Title */}
                         <h3 className="text-xl font-semibold">{service.Title}</h3>
 
                         {/* Description */}
