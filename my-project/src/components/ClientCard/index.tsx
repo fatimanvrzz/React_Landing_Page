@@ -22,7 +22,7 @@
               {comment}
             </p>
 
-            <h2 className="font-bold text-gray-500 text-sm">
+            <h2 className="font-bold text-gray-500 text-sm mt-2">
               - {name}
             </h2>
           </div>

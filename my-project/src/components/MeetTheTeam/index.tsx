@@ -8,7 +8,7 @@ const MeetTheTeam = () => {
         < div className="flex flex-col items-center justify-center h-auto w-auto mb-20" >
             <div className="flex flex-col items-center justify-center gap-5">
                 <h1 className="text-4xl font-bold mt-14">MEET THE TEAM</h1>
-                <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+                <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
 
 
                 <div className="flex gap-5 items-center text-center mt-10 pb-10">
