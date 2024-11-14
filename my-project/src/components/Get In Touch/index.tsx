@@ -1,6 +1,4 @@
-import GetInTouchContact from "../GetInTouchContact";
 import GetInTouchForm from "../GetInTouchForm";
-import fData from "../../form.json"
 
 
 const GetInTouch = () => {
@@ -13,14 +11,12 @@ const GetInTouch = () => {
             <div className="flex w-[970px] justify-between">
                 <p className="text-lg opacity-55">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
                 <h2 className="text-lg">Contact-info</h2>
-
             </div>
 
             <div className="flex">
 
                 <GetInTouchForm />
 
-                {fData.map(fData => <GetInTouchContact key={fData.id} address={fData.address} mobile={fData.mobile} email={fData.email} />)}
 
             </div>
 
