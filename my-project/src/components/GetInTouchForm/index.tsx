@@ -45,42 +45,44 @@ function ContactForm() {
 
     return (
 
-        <div className="mt-10 w-[800px] flex-col">
+        <div className="mt-10  flex">
 
-            <form onSubmit={handleSubmit} className="mb-4 flex gap-10">
-                <input
-                    type="text"
-                    className="w-1/2 p-3 border-gray-300  text-black focus:outline-none focus:border-indigo-500"
-                    placeholder="Name"
-                    value={name}
-                    onChange={handleNameChange}
-                />
-                <input
-                    type="email"
-                    className=" w-1/2 p-3 border-gray-300 text-black focus:outline-none focus:border-indigo-500"
-                    placeholder="Email"
-                    value={email}
-                    onChange={handleEmailChange}
-                />
-            </form>
+            <div className="flex flex-col w-[750px]">
+                <form onSubmit={handleSubmit} className="mb-4 flex gap-10">
+                    <input
+                        type="text"
+                        className="w-1/2 p-3 border-gray-300  text-black focus:outline-none focus:border-indigo-500"
+                        placeholder="Name"
+                        value={name}
+                        onChange={handleNameChange}
+                    />
+                    <input
+                        type="email"
+                        className=" w-1/2 p-3 border-gray-300 text-black focus:outline-none focus:border-indigo-500"
+                        placeholder="Email"
+                        value={email}
+                        onChange={handleEmailChange}
+                    />
+                </form>
 
-            <form onSubmit={handleSubmit} className="gap-10 w-full" >
-                <div className="mb-4">
-                    <textarea
-                        className="w-full p-3 border border-gray-300 text-black focus:outline-none focus:border-indigo-500"
-                        placeholder="Message"
-                        value={message}
-                        onChange={handleMessageChange}
-                        rows={4}
-                    >
-                    </textarea>
-                </div>
-                <button
-                    type="submit"
-                    className="w-max bg-transparent border-white border-2 hover:bg-white hover:text-black text-white font-semibold py-3 px-7 rounded-3xl transition duration-700">
-                    Send Message
-                </button>
-            </form>
+                <form onSubmit={handleSubmit} className="gap-10 w-full" >
+                    <div className="mb-4">
+                        <textarea
+                            className="w-full p-3 border border-gray-300 text-black focus:outline-none focus:border-indigo-500"
+                            placeholder="Message"
+                            value={message}
+                            onChange={handleMessageChange}
+                            rows={4}
+                        >
+                        </textarea>
+                    </div>
+                    <button
+                        type="submit"
+                        className="w-max bg-transparent uppercase border-white border-2 hover:bg-white hover:text-black text-white font-semibold py-3 px-10 rounded-3xl transition duration-700">
+                        Send Message
+                    </button>
+                </form>
+            </div>
         </div>
     );
 }

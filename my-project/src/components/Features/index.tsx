@@ -12,7 +12,6 @@ type FeaturesData = {
 
 const Features: React.FC = () => {
 
-    // featuresCard array'sindeki öğeleri tanımlıyoruz
     const featuresCard: FeaturesData[] = [
         {
             Icon: <LuMessagesSquare />,

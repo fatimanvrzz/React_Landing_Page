@@ -7,6 +7,7 @@ import GetInTouch from '../components/Get In Touch';
 import MeetTheTeam from '../components/MeetTheTeam';
 import Navbar from '../components/Navbar';
 import OurService from '../components/OurService';
+import Footer from '../components/Footer';
 
 
 const IndexPage: React.FC = () => {
@@ -47,7 +48,7 @@ const IndexPage: React.FC = () => {
             <ClientComment />
             <MeetTheTeam />
             <GetInTouch/>
-
+            <Footer />
         </div>
     );
 
