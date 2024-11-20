@@ -15,7 +15,7 @@ const IndexPage: React.FC = () => {
     return (
         <div className="w-screen">
 
-            <Navbar />
+            <Navbar/>
 
             {/* Background Section */}
             <div className="relative bg-cover bg-center h-screen" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>

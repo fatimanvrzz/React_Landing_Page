@@ -8,7 +8,7 @@ import { FaYoutube } from "react-icons/fa6";
 const GetInTouch = () => {
     return (
 
-        <div className="flex flex-col w-full pt-10 pr-2 pl-36 items-center gap-9 bg-gradient-to-br from-blue-500 to-indigo-300 text-white">
+        <div className="flex flex-col w-full pt-10 pr-2 pl-36 items-center gap-9 bg-gradient-to-br from-blue-500 to-indigo-300 text-white" id="contact">
             <div className="flex items-center gap-16 w-full">
                 <div className="flex flex-col">
 
